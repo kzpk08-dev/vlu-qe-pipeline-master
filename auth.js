@@ -21,12 +21,11 @@ function login(username, password) {
         return false;
     }
 
-    // Tài khoản hợp lệ
+    // Kiểm tra thông tin đăng nhập của tài khoản quản trị
     if (username === "admin" && password === "123") {
         return true;
     }
 
-    // Sai username hoặc password
     return false;
 }
 
